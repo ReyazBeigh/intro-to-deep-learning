@@ -5,6 +5,7 @@ import pandas as pd
 from IPython.display import display
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.python.keras.callbacks import History
+import matplotlib.pyplot as plt
 
 csv_input = "./inputs/winequality-red.csv"
 red_wine_data = pd.read_csv(csv_input)
